@@ -30,6 +30,11 @@ body {
 .nav-wrap { display: flex; justify-content: space-between; align-items: center; padding: 0.9rem 0; }
 .brand-logo { width: clamp(180px, 24vw, 250px); display: block; }
 .nav-links { display: flex; gap: 1rem; list-style: none; padding: 0; margin: 0; }
+
+.nav-wrap { display: flex; justify-content: space-between; align-items: center; padding: 0.9rem 0; }
+.brand-logo { width: clamp(180px, 24vw, 250px); display: block; }
+.nav-links { display: flex; gap: 1rem; list-style: none; padding: 0; margin: 0; }
+
 .nav-links a {
   color: var(--muted);
   text-decoration: none;
@@ -46,6 +51,15 @@ body {
 h1 { margin: .4rem 0 1rem; font-size: clamp(2rem, 4vw, 3.2rem); line-height: 1.1; }
 h2 { margin-top: 0; }
 .lead, .muted { color: var(--muted); line-height: 1.65; }
+
+.section { padding: 4rem 0; }
+.hero-grid { display: grid; grid-template-columns: 1.25fr 1fr; gap: 1.5rem; align-items: center; }
+.eyebrow { color: var(--purple-soft); text-transform: uppercase; font-size: 0.78rem; letter-spacing: .1em; font-weight: 700; }
+h1 { margin: .4rem 0 1rem; font-size: clamp(2rem, 4vw, 3.2rem); line-height: 1.1; }
+h2 { margin-top: 0; }
+.lead, .muted { color: var(--muted); line-height: 1.65; }
+
+.hero-cta { display: flex; gap: .8rem; margin-top: 1.4rem; flex-wrap: wrap; }
 
 .hero-cta { display: flex; gap: .8rem; margin-top: 1.4rem; flex-wrap: wrap; }
 .btn {
@@ -81,6 +95,7 @@ h2 { margin-top: 0; }
   font-size: .75rem;
   text-transform: uppercase;
 }
+
 .featured { border-color: #584671; box-shadow: 0 0 0 1px rgba(111, 90, 143, .4); }
 .timeline { display: grid; gap: 1rem; grid-template-columns: repeat(3, minmax(0, 1fr)); }
 .step { margin: 0 0 .6rem; color: var(--purple-soft); font-weight: 800; }
@@ -102,6 +117,8 @@ input, textarea {
   padding: 1.2rem 0 2rem;
   background: rgba(8, 8, 10, 0.95);
 }
+.footer-wrap { display: flex; justify-content: space-between; gap: 1rem; color: var(--muted); font-size: .92rem; }
+
 .footer-wrap { display: flex; justify-content: space-between; gap: 1rem; color: var(--muted); font-size: .92rem; }
 
 @media (max-width: 900px) {
