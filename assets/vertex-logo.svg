@@ -1,0 +1,24 @@
+<svg width="1200" height="300" viewBox="0 0 1200 300" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">Vertex Instruments logo</title>
+  <desc id="desc">A silver star mark with the words Vertex Instruments.</desc>
+  <defs>
+    <linearGradient id="silver" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#f5f7fb"/>
+      <stop offset="55%" stop-color="#c6ccd9"/>
+      <stop offset="100%" stop-color="#8e95a6"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(224 150) rotate(90) scale(60)">
+      <stop stop-color="#ffffff" stop-opacity="0.95"/>
+      <stop offset="1" stop-color="#ffffff" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+
+  <circle cx="224" cy="150" r="58" fill="url(#glow)" />
+
+  <polygon points="224,20 234,150 224,280 214,150" fill="url(#silver)"/>
+  <polygon points="64,150 224,140 384,150 224,160" fill="url(#silver)"/>
+  <polygon points="50,250 240,150 350,80 250,170" fill="url(#silver)"/>
+
+  <text x="430" y="155" fill="#EEF2FA" font-family="Inter, system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif" font-size="112" font-weight="800" letter-spacing="0.4">Vertex</text>
+  <text x="430" y="235" fill="#B9C0CF" font-family="Inter, system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif" font-size="92" font-weight="400" letter-spacing="0.2">Instruments</text>
+</svg>
