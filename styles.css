@@ -85,6 +85,10 @@ body {
 }
 
 /* Hero */
+.hero {
+  padding: 3rem 0;
+}
+
 .hero-grid {
   display: grid;
   grid-template-columns: 1.25fr 1fr;
